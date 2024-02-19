@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      img {
+        height: 50px;
+        width: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to CodeHelp</h1>
+    <h2>Contact Us Form</h2>
+
+    <form action="">
+      <label for="name">Name</label>
+      <input type="text" placeholder="Enter Your Name" />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" placeholder="Enter Your Email" />
+      <br />
+      <label for="contact_Number">Contact Number</label>
+      <input type="text" placeholder="Enter Contact Number" />
+      <br />
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="notspecify">Rather Not Say</option>
+      </select>
+      <br />
+      <label for="dob">Date Of Birth</label>
+      <input type="date" />
+      <br />
+      <label for="rating">Rating</label>
+      <div>
+        <input type="radio" name="fav_language" />1
+        <input type="radio" name="fav_language" />2
+        <input type="radio" name="fav_language" />3
+        <input type="radio" name="fav_language" />4
+        <input type="radio" name="fav_language" />5
+      </div>
+      <br />
+      <label for="large_text">Enter Your Message</label><br />
+      <textarea
+        name="large_text"
+        id=""
+        cols="30"
+        rows="5"
+        placeholder="Enter Your Message"
+      ></textarea
+      ><br />
+      <button>send</button>
+      <button>Reset</button><br /><br />
+      <a href="https://www.youtube.com/@LoveBabbar" target="_blank">
+        <img
+          src="https://codehelp-html-contact-form.netlify.app/images/youtube.png"
+          alt="youtube-image"
+        />
+      </a>
+      <a href="https://www.instagram.com/lovebabbar1/" target="_blank">
+        <img
+          src="https://codehelp-html-contact-form.netlify.app/images/insta.jpg"
+          alt="instagram-image"
+        />
+      </a>
+      <a href="https://t.me/+EEoZWavpShZmM2Y1" target="_blank">
+        <img
+          src="https://codehelp-html-contact-form.netlify.app/images/telegram.png"
+          alt="telegram-image"
+        />
+      </a>
+    </form>
+  </body>
+</html>

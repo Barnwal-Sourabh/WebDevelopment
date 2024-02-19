@@ -1,0 +1,29 @@
+.image-class{
+    width: 30vw;
+    height: 35vh;
+    border-radius: 3%;
+}
+#content{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#span1{
+    color: rgb(7, 79, 108);
+}
+
+#span2{
+    color: rgb(123, 113, 113);
+}
+
+#buttonId{
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+    border-color: #00AA66;
+    border-style: solid;
+    border-radius: 10%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}

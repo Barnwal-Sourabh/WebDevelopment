@@ -1,0 +1,50 @@
+/* * {
+    background-color: aqua;
+} */
+/* p{
+            color: red;
+            font-size: larger;
+        }
+        h1{
+            background-color: aqua;
+        } */
+
+/* .green{
+            color: green;
+        }
+        .blue{
+            color: blue;
+        } */
+
+/* .small{
+            font-size: small;
+        }
+        .big{
+            font-size: large;
+        } */
+/* #first-button{
+            color: red;
+        }
+        #first-para{
+            background-color: skyblue;
+        }
+        #first-button:hover{
+            background-color: yellow;
+        } */
+
+/* .example {
+    color: gray;
+    & a {
+        color: tomato;
+        &:hover,
+        &:focus {
+            color: ivory;
+            background-color: tomato;
+            text-decoration: none;
+        }
+    }
+
+    & a[target] {
+        background-color: yellow;
+    }
+} */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, tr,td,th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Months</th>
+                <!-- <th>savings</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>January</th>
+                <td>100</td>
+                <tr>
+                    <th rowspan="3">February</th>
+                    <td>500</td>
+                    
+                </tr>
+                <tr>
+                    <!-- <th>March</th> -->
+                    <td>600</td>
+
+                </tr>
+                <tr>
+                    <!-- <th>Apirl</th> -->
+                    <td>200</td>
+
+                </tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>1400</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
