@@ -30,6 +30,9 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 20px;
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
 }
 
 #coffee-mug{
@@ -65,8 +68,24 @@
     font-weight: 700;
 }
 
+#buttonId{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#cartId{
+    margin-right: 15px;
+}
 
 
+#buttonId:hover{
+    background-color: hsl(156, 24%, 24%);
+    cursor: pointer;
+}
 
 
 
