@@ -1,0 +1,149 @@
+
+*{
+    padding: 0;   
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 30px 48px 50px 60px;
+    scroll-behavior: smooth;
+}
+
+.wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 71px;
+}
+
+.navigation img{
+    height: 10%;
+    width: 6%;
+}
+
+.navigation ul{
+    display: flex;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    margin: 0 25px 0 25px;
+}
+
+.navigation ul li:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+    padding-bottom: 3px;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+.navigation button{
+    background-color: blue;
+    color: white;
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    right: 10px;
+    border: none;
+}
+
+.navigation button:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.divClass{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.divClass img{
+    max-width: 60%;
+    max-height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.divClass h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.divClass hr{
+    width: 20%;
+    margin: 10px 0 30px 0;
+}
+
+.content1{
+    padding-right: 115px;
+    font-weight:lighter;
+}
+
+.content2{
+    font-weight: lighter;
+    padding-left: 200px;
+}
+
+.footerClass{
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.subContainer1 img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+footer h2{
+    color: blue;
+    font-weight: 100;
+    text-transform:uppercase;
+    font-size:medium;
+    margin-bottom: 20px;
+}
+
+.subContainer1 h2{
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: small;
+    font-weight: 100;
+    color: rgb(169, 205, 226);
+    line-height: 25px;
+}
+
+.subContainer2 p{
+    margin-bottom: 20px;
+}
+
+.subContainer3 .ultag{
+    list-style-type: none;
+    font-size: small;
+    font-weight: 100;
+    color: rgb(169, 205, 226);
+    line-height: 25px;
+}
+
+.subContainer4 img{
+    width: 60px;
+    height: 39px;
+    object-fit: contain;
+}
