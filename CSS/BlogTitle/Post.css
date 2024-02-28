@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 3% 3% 3% 3%;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.navigation h1{
+    justify-self:center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.navigation a{
+    font-size: 1.5em;
+}
+
+
+.navigation img{
+    width: 4%;
+    justify-self: end;
+}

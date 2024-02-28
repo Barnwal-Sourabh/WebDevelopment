@@ -3,15 +3,15 @@
     background-color: yellow;
     height: 700px;
     width: 600px;
-    display: -ms-inline-grid;
+    display: grid;
     
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px;
 
     gap: 10px;
 
-    /* justify-content: start;
-    justify-content: end;
+    justify-content: start;
+    /* justify-content: end;
     justify-content: center;
     justify-content: space-between;
     justify-content: space-around;
@@ -23,8 +23,8 @@
     align-content: space-around;
     align-content: space-evenly; */
 
-    /* align-items: start;
-    align-items: end;
+    align-items: start;
+    /* align-items: end;
     align-items: center;
     align-items:baseline;
     align-items:stretch;
